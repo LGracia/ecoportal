@@ -1,0 +1,17 @@
+.commentRow {
+    color: #282c34;
+    padding-inline: 1.9rem;
+    text-align: justify;
+}
+
+.author p {
+    font-size: small;
+    font-weight: bold;
+    color: royalblue;
+}
+
+.message p {
+    color: gray;
+    font-size: 14px;
+    padding-inline: 1rem;
+}

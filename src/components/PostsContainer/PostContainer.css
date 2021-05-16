@@ -1,0 +1,51 @@
+.postCard {
+    background-color: white;
+    border-color: dimgrey;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 0.19em;
+    color: #282c34;
+}
+
+div.postCard + div.postCard {
+    margin-top: 2rem;
+}
+
+.title {
+    color: #282c34;
+    padding-inline: 1.9rem;
+    text-align: left;
+}
+
+.titleCard {
+    border-color: dimgrey;
+    border-bottom-style: solid;
+}
+
+.postBody {
+    color: #282c34;
+    display: flex;
+    max-height: 20rem;
+    padding-inline: 1.9rem;
+    position: relative;
+    text-align: justify;
+}
+
+.postMessage {
+    border-right-style: dotted;
+    border-right-width: 0.1em;
+    color: gray;
+    padding-right: 1.9rem;
+    width: 50%;
+}
+
+.postComments {
+    max-height: 20rem;
+    overflow: auto;
+    padding-right: 1.9rem;
+    width: 50%;
+}
+
+h3 {
+    font-size: x-large;
+}
